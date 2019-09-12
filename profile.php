@@ -18,6 +18,7 @@ require_once 'session.php';
 </head>
 
 <body class="bg-dark">
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Souza Systems</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +41,7 @@ require_once 'session.php';
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="slider.php">Fotos</a>
-                        <a class="dropdown-item" href="#">Config</a>
+                        <a class="dropdown-item" href="#">Config.</a>
                         <a class="dropdown-item" href="sair.php">Sair</a>
 
                     </div>
@@ -53,7 +54,8 @@ require_once 'session.php';
 
         <div class="row">
             <div class="offset-lg-2 col-3">
-                <img src="<?= $urlAvatar ?>" alt="Foto de <?= $usuario ?>" height="200" width="200" /></div>
+                <img src="<?= $urlAvatar ?>" alt="Foto de <?= $usuario ?>" width="200" height="200" />
+            </div>
             <div class="col-7">
                 <h1 class="text-light">Perfil de usuário</h1>
                 <h2 class="text-light">Nome: <?= $nome ?></h2>
@@ -61,7 +63,6 @@ require_once 'session.php';
                 <h2 class="text-light">Data de Cadastro: <?= $dataCriacao ?></h2>
             </div>
         </div>
-
     </main>
 
     <!-- Optional JavaScript -->
