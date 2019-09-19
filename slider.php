@@ -61,22 +61,22 @@ require_once 'session.php';
                     <div class="carousel-item active">
                         <img src="imagens/paisagem1.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5>Riacho com Aguas Cristalinas</h5>
+                            <p>Os raios solares chegam nessas água magnificas.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="imagens/paisagem2.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h5>Por do Sol na praia</h5>
+                            <p>Esta praia é tão bela que parece ser mentira.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="imagens/paisagem3.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5>Montanhas Gigantes</h5>
+                            <p>Uma visão privilegiada, uma das mais bonitas do Mundo!.</p>
                         </div>
                     </div>
                 </div>
